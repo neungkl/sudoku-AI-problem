@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  web:
+    image: jupyter/scipy-notebook
+    volumes:
+      - .:/home/jovyan/
+    ports:
+      - 8888:8888
