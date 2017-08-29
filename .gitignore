@@ -1,3 +1,4 @@
 .local
 .ipython
 .ipynb_checkpoints
+.jupyter
